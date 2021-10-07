@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+}
+
+.row {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+li {
+    justify-self: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.innercontainer {
+    justify-self: center;
+    width: 100px;
+    padding: 100px;
+    background: aqua;
+}
